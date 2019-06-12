@@ -22,7 +22,6 @@ public class UserController {
         mv.addObject("user",user);
         mv.setViewName("user");
         return mv;
-
     }
 
 }

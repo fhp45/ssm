@@ -14,7 +14,7 @@
   </welcome-file-list>
 
   <listener>
-    <listener-class>org.springframework.web.context.ContextCleanupListener</listener-class>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
   <context-param>
